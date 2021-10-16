@@ -31,7 +31,7 @@ Text_Games = [[
  ⌯︙ لعبه المعاني ~⪼ العبه الشهيره 
   ⌯︙  لعبه سوال بدون جواب ~⪼ لعبة كت تويت
 •━━━━━━━━━━━━━•ٴ
-彡 .[𝘉𝘖𝘠𝘒𝘈 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/BO6OK)➢
+彡 .[�Quartz 𝘊𝘩𝘢𝘯𝘯𝘦𝘭](t.me/KKKKiK)➢
 ]]
 send(msg.chat_id_, msg.id_,Text_Games) 
 end
@@ -523,7 +523,7 @@ end
 database:set(bot_id..'Set:English:Bot'..msg.chat_id_,true)
 end
 ------------------------------------------------------------------------
- if text == 'كت تويت' or text == 'كت تويتت' then
+ if text == 'كت تويت' or text == 'كت' then
 if AddChannel(msg.sender_user_id_) == false then
 local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
